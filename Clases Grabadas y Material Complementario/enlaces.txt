@@ -1,0 +1,17 @@
+IADES INSTITUTO ARGENTINO DE EDUCACIÓN SECUNDARIA Y SUPERIOR
+
+Carrera Analista de Sistemas
+
+TALLER DE PROGRAMACIÓN II
+M y J 19:00 - 20:20 / V 20:30 - 21:50
+
+Lista de Reproducción de YouTube: https://www.youtube.com/playlist?list=PLAQvHN5NGMgIWaE6TRt9wCQdG1VlcIJwM
+
+Git:
+https://git-scm.com/
+
+GitHub:
+https://github.com/
+
+CheatSheet:
+https://education.github.com/git-cheat-sheet-education.pdf
