@@ -15,20 +15,19 @@
 #6. Muestra la cantidad disponible de "Pera".
 
 
-# Crear la lista de nombres de frutas
+#Datos
 frutas = ["Manzana", "Banana", "Naranja", "Pera", "Uva"]
-
-# Crear la lista de precios de las frutas
 precios = [2.50, 1.80, 1.20, 3.00, 2.75]
-
-# Crear la lista de cantidades de frutas disponibles
 cantidades = [10, 15, 8, 12, 20]
 
+#Muestra nombre de la tercer fruta de la lista
 tercer_fruta = frutas[2]
 print(f"El tercer nombre de fruta es: {tercer_fruta}")
 
+#Muestra el precio de la Naranja
 precio_naranja = precios[2]
 print(f"El precio de la Naranja es: ${precio_naranja:.2f}")
 
+#Muestra la cantidad disponibles de Pera
 cantidad_pera = cantidades[3]
 print(f"La cantidad disponible de Pera es: {cantidad_pera} kg")
