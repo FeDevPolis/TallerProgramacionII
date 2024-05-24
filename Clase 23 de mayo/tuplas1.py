@@ -42,7 +42,7 @@ def menu():
         if opcion == "1":
             nombre = input("Ingrese el nombre del participante: ")
             apellido = input("Ingrese el apellido del participante: ")
-            documento = input("Ingrese el número de documento del participante: ")
+            dni= input("Ingrese el número de documento del participante: ")
             registrar_participante(nombre, apellido, dni)
         elif opcion == "2":
             if verificar_cupo():
