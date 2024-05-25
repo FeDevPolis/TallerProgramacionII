@@ -10,6 +10,9 @@ evento = (
 #Función para registrar un participante
 def registrar_participante(nombre, apellido, dni):
     if verificar_cupo():
+        nombre = input("Ingrese el nombre del participante: ")
+        apellido = input("Ingrese el apellido del participante: ")
+        dni= input("Ingrese el número de doc5umento del participante: ")
         participante = (nombre, apellido, dni)
         evento[4].append(participante)
         print(f"Participante {nombre} {apellido} registrado exitosamente.")
@@ -40,9 +43,6 @@ def menu():
         opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
-            nombre = input("Ingrese el nombre del participante: ")
-            apellido = input("Ingrese el apellido del participante: ")
-            dni= input("Ingrese el número de documento del participante: ")
             registrar_participante(nombre, apellido, dni)
         elif opcion == "2":
             if verificar_cupo():
