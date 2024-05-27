@@ -43,7 +43,7 @@ def menu():
         opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
-            registrar_participante(nombre, apellido, dni)
+            registrar_participante()
         elif opcion == "2":
             if verificar_cupo():
                 print("Aún hay cupo disponible.")
