@@ -14,6 +14,8 @@ def buscar_contacto(agenda, criterio):
             print(f"Nombre: {nombre}")
             print(f"Telefono: {info['Telefono']}")
             print(f"Correo: {info['Correo']}")
+        else:
+            print("No se encuentra agendado.")
 
 agenda = {}
 
@@ -25,7 +27,6 @@ while True:
     opcion = input("Selecciona una opcion: ")
 
     if opcion =='1':
-        
         nombre = input("Ingrese el nombre del contacto: ")
         telefono = input("Ingresa el numero de telefono: ")
         correo = input("Ingresa el correo electronico: ")

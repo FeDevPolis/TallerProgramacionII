@@ -1,0 +1,13 @@
+Python – Convert Nested Tuple to Custom Key Dictionary
+
+Sometimes, while working with Python records, we can have data that come 
+without proper column names/identifiers, which can just be identified by their index,
+but we intend to assign them keys and render in form of dictionaries. 
+This kind of problem can have applications in domains such as web development. 
+Let’s discuss certain ways in which this task can be performed.
+
+Input : test_tuple = ((1, ‘Gfg’, 2), (3, ‘best’, 4)), keys = [‘key’, ‘value’, ‘id’] 
+Output : [{‘key’: 1, ‘value’: ‘Gfg’, ‘id’: 2}, {‘key’: 3, ‘value’: ‘best’, ‘id’: 4}] 
+
+Input : test_tuple = test_tuple = ((1, ‘Gfg’), (2, 3)), keys = [‘key’, ‘value’] 
+Output : [{‘key’: 1, ‘value’: ‘Gfg’}, {‘key’: 2, ‘value’: 3}]
