@@ -11,3 +11,27 @@ Output : [{‘key’: 1, ‘value’: ‘Gfg’, ‘id’: 2}, {‘key’: 3, �
 
 Input : test_tuple = test_tuple = ((1, ‘Gfg’), (2, 3)), keys = [‘key’, ‘value’] 
 Output : [{‘key’: 1, ‘value’: ‘Gfg’}, {‘key’: 2, ‘value’: 3}]
+
+
+
+
+Python – Convertir tupla anidada a diccionario con claves personalizadas
+
+A veces, al trabajar con registros en Python, podemos tener datos que vienen 
+sin nombres de columna/identificadores adecuados, los cuales solo pueden ser 
+identificados por su índice, pero queremos asignarles claves y renderizarlos 
+en forma de diccionarios. Este tipo de problema puede tener aplicaciones en 
+dominios como el desarrollo web. Vamos a discutir ciertas maneras en las que 
+se puede realizar esta tarea.
+
+Entrada:
+tupla_prueba = ((1, 'Gfg', 2), (3, 'best', 4)), claves = ['clave', 'valor', 'id']
+
+Salida:
+[{'clave': 1, 'valor': 'Gfg', 'id': 2}, {'clave': 3, 'valor': 'best', 'id': 4}]
+
+Entrada:
+tupla_prueba = ((1, 'Gfg'), (2, 3)), claves = ['clave', 'valor']
+
+Salida:
+[{'clave': 1, 'valor': 'Gfg'}, {'clave': 2, 'valor': 3}]
