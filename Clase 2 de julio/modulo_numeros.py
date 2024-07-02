@@ -10,5 +10,5 @@ def es_primo(numero):
               
     return True
 
-def suma_digito(numero):
+def suma_digitos(numero):
     return sum(int(digito) for digito in str(numero))
