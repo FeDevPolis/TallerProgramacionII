@@ -1,5 +1,7 @@
-from modulo_strings import contar_vocales, invertir_texto
-from modulo_numeros import es_primo, suma_digitos
+#from modulo_strings import contar_vocales, invertir_texto
+#from modulo_numeros import es_primo, suma_digitos
+import modulo_strings
+import modulo_numeros
 
 def mostrar_menu():
     print("Menú de Opciones:")
@@ -23,16 +25,16 @@ def main():
 
        if opcion == '1':
            texto = input("Ingrese un texto: ")
-           print(f"El texto tiene {contar_vocales(texto)} vocales.")
+           print(f"El texto tiene {modulo_strings.contar_vocales(texto)} vocales.")
        elif opcion == '2':
            texto = input("Ingrese un texto: ")
-           print(f"El texto invertido es: {invertir_texto(texto)}")
+           print(f"El texto invertido es: {modulo_strings.invertir_texto(texto)}")
        elif opcion == '3':
            numero = int(input("Ingrese un número: "))
-           print(f"El número {numero} {'es' if es_primo(numero) else 'no es'} primo.")
+           print(f"El número {numero} {'es' if modulo_numeros.es_primo(numero) else 'no es'} primo.")
        elif opcion == '4':
            numero = int(input("Ingrese un número: "))
-           print(f"La suma de los dígitos de {numero} es {suma_digitos(numero)}")
+           print(f"La suma de los dígitos de {numero} es {modulo_numeros.suma_digitos(numero)}")
        elif opcion == '0':
            print("Saliendo...")
            break
